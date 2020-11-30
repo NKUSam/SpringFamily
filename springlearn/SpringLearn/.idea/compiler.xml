@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Step_Two" />
+        <module name="Step_Three" />
+        <module name="Step_One" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch01-hello-spring" target="1.8" />
+      <module name="Step_One" target="1.8" />
+      <module name="Step_Three" target="1.8" />
+      <module name="Step_Two" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

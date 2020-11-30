@@ -1,0 +1,54 @@
+依赖注入（创建对象并给其属性赋值）：
+    1.基于XML的DI实现
+    2.基于注解的DI实现
+
+DI的分类：
+    1.set注入（设置注入）：spring容器调用类的set方法，通过set方法进行对象的属性赋值（大部分使用）
+    2.构造注入，spring容器调用类的有参构造方法创建对象
+
+实现步骤：
+    1.创建Maven项目
+    2.加入Spring依赖
+    3.创建类（普通创建一个类）
+    4.创建Spring需要的配置文件（声明类信息，声明的类由Spring控制）
+        基于XML的依赖注入：
+            set注入（类中必须含有setter方法的定义）：
+                简单变量传值
+                    <bean id="myStudent" class="cool.smhw.bg01.Student">
+                        <property name="name" value="Jack"/>
+                        <property name="age" value="20"/>
+                    </bean>
+
+                对象变量传值
+                    <bean id="student" class="cool.smhw.bg02.Student">
+                        <property name="name" value="史密斯"/>
+                        <property name="age" value="34"/>
+                        <property name="school" ref="school"/>
+                    </bean>
+
+                    <bean id="school" class="cool.smhw.bg02.School">
+                        <property name="name" value="华盛顿大学"/>
+                        <property name="address" value="华盛顿某个地方"/>
+                    </bean>
+
+            构造注入：
+                <bean id="student" class="cool.smhw.bg03.Student">
+                    <constructor-arg name="name" value="史密斯"/>
+                    <constructor-arg name="age" value="40"/>
+                    <constructor-arg name="school" ref="school"/>
+                </bean>
+
+                index可以替代name属性
+
+                <bean id="student" class="cool.smhw.bg03.Student">
+                    <constructor-arg index="0" value="史密斯"/>
+                    <constructor-arg index="1" value="40"/>
+                    <constructor-arg index="2" ref="school"/>
+                </bean>
+
+                <bean id="school" class="cool.smhw.bg03.School">
+                    <property name="name" value="希望小学"/>
+                    <property name="address" value="库普乡"/>
+                </bean>
+
+    5.使用

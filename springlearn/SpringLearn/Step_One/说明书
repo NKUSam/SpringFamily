@@ -1,0 +1,21 @@
+通过Spring创建对象：
+
+
+步骤：
+    1.创建Maven项目
+    2.加入Spring依赖
+    3.创建类（普通创建一个类）
+    4.创建Spring需要的配置文件（声明类信息，声明的类由Spring控制）
+        <beans></beans>：说明该文件可以声明多个文件
+        创建的对象放入一个框架的Map对象中，以SpringMap.put(id的值,对象)的形式存放
+        一个<bean id="x" class="x"/>是一个对象
+    5.使用
+        //使用Spring容器创建的对象
+        //1.指定配置文件的名称
+        String config = "beans.xml";
+        //2.创建表示Spring容器的对象，ApplicationContext
+        ApplicationContext ac = new ClassPathXmlApplicationContext(config);
+        //3.通过调用容器对象的方法从容器中获取某个对象（通过bean的id获取）
+        SpringFirstTest sft = (SpringFirstTest)ac.getBean("ImlSpringFirstTest");
+        //4.使用对象
+        sft.print();

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="cool.smhw.bg03.Student">
+        <constructor-arg name="name" value="史密斯"/>
+        <constructor-arg name="age" value="40"/>
+        <constructor-arg name="school" ref="school"/>
+    </bean>
+
+<!--    <bean id="student" class="cool.smhw.bg03.Student">-->
+<!--        <constructor-arg index="0" value="史密斯"/>-->
+<!--        <constructor-arg index="1" value="40"/>-->
+<!--        <constructor-arg index="2" ref="school"/>-->
+<!--    </bean>-->
+
+    <bean id="school" class="cool.smhw.bg03.School">
+        <property name="name" value="希望小学"/>
+        <property name="address" value="库普乡"/>
+    </bean>
+</beans>

@@ -1,0 +1,26 @@
+<引用>类型自动注入：
+    使用方式：
+        byName,byType
+        byName：
+            <bean id="student" class="cool.smhw.bg02.Student" autowire="byName">
+                <property name="name" value="史密斯"/>
+                <property name="age" value="34"/>
+            </bean>
+
+            <bean id="school" class="cool.smhw.bg02.School">
+                <property name="name" value="华盛顿大学"/>
+                <property name="address" value="华盛顿教区"/>
+            </bean>
+
+
+        byType：
+            只要<bean>中class为引用类型一样的类或者其父子类或者接口或其实现类（大于两个的会抛异常）
+            <bean id="student" class="cool.smhw.bg02.Student" autowire="byType">
+                <property name="name" value="史密斯"/>
+                <property name="age" value="34"/>
+            </bean>
+
+            <bean id="school" class="cool.smhw.bg02.School">
+                <property name="name" value="华盛顿大学"/>
+                <property name="address" value="华盛顿教区"/>
+            </bean>
