@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="school" class="cool.smhw.bg03.School">
+        <property name="name" value="华盛顿大学"/>
+        <property name="address" value="华盛顿教区"/>
+    </bean>
+
+</beans>
