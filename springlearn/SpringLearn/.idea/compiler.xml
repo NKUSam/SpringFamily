@@ -9,10 +9,12 @@
         <module name="Step_Two" />
         <module name="Step_Three" />
         <module name="Step_One" />
+        <module name="Step_Four" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ch01-hello-spring" target="1.8" />
+      <module name="Step_Four" target="1.8" />
       <module name="Step_One" target="1.8" />
       <module name="Step_Three" target="1.8" />
       <module name="Step_Two" target="1.8" />

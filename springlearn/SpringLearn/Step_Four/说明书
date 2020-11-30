@@ -1,0 +1,122 @@
+基于注解的依赖注入（创建对象、对对象属性进行赋值）：
+    使用步骤：
+        1.加入spring-context依赖，间接加入spring-aop依赖（使用注解必须使用spring-aop依赖）
+        2.在类中加入spring的注解（多个不同功能的依赖）
+        3.在spring的配置文件中，加入一个组件扫描器的标签，说明注解在你项目中的位置
+
+    常用注解：
+        1.@Component：组件（使用场景：当注解不是234的时候就用@Component）
+            <!-- 组件扫描器，代表java对象，扫描包中的子包以及类中的注解并创建对应的对象 -->
+            <context:component-scan base-package="cool.smhw.bg1"/>
+
+            //@Component(value = "myStudent")
+            @Component(value = "myStudent")
+            //如果不加(value = "myStudent")，默认为student
+            public class Student {}
+
+        2.@Repository：仓库
+            创建对象（还有额外的功能，有分层的功能）
+            放在dao的实现类上面，表示创建dao对象，dao访问数据库
+        3.@Service：服务
+            创建对象（还有额外的功能，有分层的功能）
+            放在service的实现类上面，表示创建业务处理对象
+        4.@Controller：控制器
+            创建对象（还有额外的功能，有分层的功能）
+            放在controller的实现类上面，创建接受和显示用户请求和程序结果的对象（servlet功能）
+        5.@Value：值
+            作用：对简单类型的属性赋值
+            @Component("myStudent")
+            public class Student {
+
+                @Value(value = "张飞")
+                private String name;
+            //    @Value("29")
+                private Integer age;
+
+                @Value("29")
+                public void setAge(Integer age) {
+                    this.age = age;
+                }
+            }
+
+        6.AutoWired：自动装配
+            作用：对引用类型的属性进行赋值
+            默认使用的是byType
+            @Component("student")
+            public class Student {
+
+                @Value("Smith")
+                private String name;
+                @Value("45")
+                private Integer age;
+
+                @Autowired //默认是才有byType
+
+                private School school;
+            }
+
+            byName方式
+            @Component("student")
+            public class Student {
+
+                @Value("Smith")
+                private String name;
+                @Value("45")
+                private Integer age;
+
+                @Autowired
+                @Qualifier("school")  //使用byName的方式
+
+                private School school;
+            }
+
+            如果Autowired的引用的对象是不存在的，则报错
+            解决方法：
+            @Component("student")
+            public class Student {
+
+                @Value("Smith")
+                private String name;
+                @Value("45")
+                private Integer age;
+
+                @Autowired(required = false) //默认是true
+
+                @Qualifier("school")  //使用byName的方式
+                private School school;
+            }
+
+        7.@Resource(是JDK注解，Spring框架提供了对它的支持)：资源
+            @Component("student")
+            public class Student {
+
+                @Value("Smith")
+                private String name;
+                @Value("45")
+                private Integer age;
+
+            //    @Resource//默认使用byName，如果没有指定id的话就自动使用byType
+                @Resource(name = "school")
+                private School school;
+
+                @Override
+                public String toString() {
+                    return "Student{" +
+                            "name='" + name + '\'' +
+                            ", age=" + age +
+                            ", school=" + school +
+                            '}';
+                }
+            }
+
+在配置文件中指定多个包：
+    1.单包单包的引入
+    <context:component-scan base-package="cool.smhw.bg1"/>
+    <context:component-scan base-package="cool.smhw.bg2"/>
+
+    2.多个包间通过分号或者空格的方式来引入
+    <context:component-scan base-package="cool.smhw.bg1;cool.smhw.bg2"/>
+    <context:component-scan base-package="cool.smhw.bg1 cool.smhw.bg2"/>
+
+    3.通过父包引入多个
+    <context:component-scan base-package="cool.smhw"/>
