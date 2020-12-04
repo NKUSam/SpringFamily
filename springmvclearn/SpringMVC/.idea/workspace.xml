@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HelloSpringMVC:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e358ba51-db76-4156-b4d2-5b3ebb47f061" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../springlearn/Step_Five/Step_Five.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springlearn/Step_Five/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springlearn/Step_Five/src/main/java/cool/smhw/handler/ImJDKTestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springlearn/Step_Five/src/main/java/cool/smhw/service/JDKTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springlearn/Step_Five/src/main/java/cool/smhw/service/iml/ImJDKTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springlearn/Step_Five/src/main/java/cool/smhw/test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springlearn/Step_Five/src/main/java/cool/smhw/test/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springlearn/Step_Five/src/main/java/cool/smhw/util/JDKTestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springlearn/Step_Five/说明书" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springlearn/Step_Six/Step_Six.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springlearn/Step_Six/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springlearn/Step_Six/说明书" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/HelloSpringMVC_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/HelloSpringMVC_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinScripting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloSpringMVC/HelloSpringMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloSpringMVC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloSpringMVC/src/main/java/cool/smhw/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloSpringMVC/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloSpringMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloSpringMVC/src/main/webapp/show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloSpringMVC/说明书" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springlearn/SpringLearn/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springlearn/SpringLearn/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springlearn/SpringLearn/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springlearn/SpringLearn/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springlearn/SpringLearn/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springlearn/SpringLearn/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springlearn/SpringLearn/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springlearn/SpringLearn/.idea/modules.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../myMaven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\myMaven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1l0hzcaJDVzsVeDcWOmujAepcOg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.48735633" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.391" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.391" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="HelloSpringMVC:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/HelloSpringMVC" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_391_SpringMVC" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59670" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="false" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="HelloSpringMVC:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.391" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_SpringMVC" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59670" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59682" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e358ba51-db76-4156-b4d2-5b3ebb47f061" name="Default Changelist" comment="" />
+      <created>1606740179824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606740179824</updated>
+      <workItem from="1606740187991" duration="3555000" />
+      <workItem from="1607062727999" duration="9337000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1607075451897">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1607075451897" />
+    <state x="457" y="260" key="#Tomcat_Server" timestamp="1607072055715">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="457" y="260" key="#Tomcat_Server/0.0.1366.728@0.0.1366.728" timestamp="1607072055715" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607075455703">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607075455703" />
+    <state x="405" y="2" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1607075253126">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="405" y="2" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1607075253126" />
+    <state x="336" y="270" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1606743174088">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="336" y="270" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1366.728@0.0.1366.728" timestamp="1606743174088" />
+    <state x="460" y="234" key="DetectedRootsChooserDialog" timestamp="1607072087977">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="460" y="234" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1607072087977" />
+    <state x="484" y="119" key="FileChooserDialogImpl" timestamp="1607075250434">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607075250434" />
+    <state width="1323" height="58" key="GridCell.Tab.0.bottom" timestamp="1607076146159">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="58" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607076146159" />
+    <state width="1323" height="58" key="GridCell.Tab.0.center" timestamp="1607076146159">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="58" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607076146159" />
+    <state width="1323" height="58" key="GridCell.Tab.0.left" timestamp="1607076146159">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="58" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607076146159" />
+    <state width="1323" height="58" key="GridCell.Tab.0.right" timestamp="1607076146159">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="58" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607076146159" />
+    <state width="905" height="151" key="GridCell.Tab.1.bottom" timestamp="1607076138868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="151" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607076138868" />
+    <state width="905" height="151" key="GridCell.Tab.1.center" timestamp="1607076138868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="151" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607076138868" />
+    <state width="905" height="151" key="GridCell.Tab.1.left" timestamp="1607076138868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="151" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607076138868" />
+    <state width="905" height="151" key="GridCell.Tab.1.right" timestamp="1607076138868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="151" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607076138868" />
+    <state width="905" height="151" key="GridCell.Tab.2.bottom" timestamp="1607076138869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="151" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607076138869" />
+    <state width="905" height="151" key="GridCell.Tab.2.center" timestamp="1607076138868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="151" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1607076138868" />
+    <state width="905" height="151" key="GridCell.Tab.2.left" timestamp="1607076138868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="151" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1607076138868" />
+    <state width="905" height="151" key="GridCell.Tab.2.right" timestamp="1607076138869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="151" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1607076138869" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1607076123693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607076123693" />
+    <state x="402" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607074403900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1607074403900" />
+    <state x="79" y="0" key="new project wizard" timestamp="1606741548675">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="79" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606741548675" />
+    <state x="346" y="49" width="672" height="160" key="search.everywhere.popup" timestamp="1607076617583">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="160" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607076617583" />
+  </component>
+</project>

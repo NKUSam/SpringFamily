@@ -1,0 +1,19 @@
+第一个SpringMVC项目：
+需求：用户在页面发出一个请求，请求交给SpringMVC的Controller对象，请求的处理结果为表示欢迎并返回给用户在其浏览器上显示
+
+实现步骤：
+    1.创建Maven的webapp常用骨架
+    2.加入依赖（Spring-webmvc，它会间接的将Spring的依赖加入到项目中）
+    3.加入jsp和servlet依赖
+    4.在web.xml中注册SpringMVC框架的核心对象DispatcherServlet（重点）
+        1).DispatcherServlet叫做中央调度器，是一个Servlet并且继承HttpServlet
+        2).DispatcherServlet也叫做前端控制器（Front Controller）
+        3).DispatcherServlet负责接受用户的请求并且调用其控制器对象，然后将请求的处理结果显示给用户
+    5.创建发请求的jsp
+    6.创建控制器类
+        1).在类的上面加入@Controller注解，创建对象并放入SpringMVC容器中
+        2).在类的方法上面加入@RequestMapping注解
+    7.创建接受处理结果的jsp，显示请求处理结果
+    8.创建SpringMVC的配置文件
+        1).声明组件扫描器，指定@Controller注解所在的包名
+        2).声明视图解析器，帮助处理视图
