@@ -1,0 +1,29 @@
+指定静态资源：
+    <mvn:default-servlet-handler/>
+    <mvn:resources mapping="" location=""/>
+
+
+路径问题：
+    1."user/some.do"
+    解析：调用控制器的时候出现问题
+    HTML标签解决：    <head>
+                        <base href="http://localhost:8080/项目名/"/>
+                    </head>
+    html的上面解决方法是静态的，如果需要改变项目名就必须重写
+    解决方法：
+                    <head>
+                        <base href="<%=basePath=%>"/>
+                    </head>
+
+                    <%
+                        String basePath = request.getScheme() + "://" +
+                        request.getServerName() + ":" + request.getServerPort() +
+                        request.getContextPath() + "/";
+                    %>
+                    获取协议：request.getScheme()
+                    获取服务器IP：request.getScheme()
+                    获取项目名：request.getContextPath()
+
+    2."/user/some.do"
+    解析：1是自动加项目名称，2是不会自动加项目名称而应该是"项目名"+2。
+    EL表达式解决：${pageContext.request.contextPath}+2。
