@@ -24,23 +24,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e358ba51-db76-4156-b4d2-5b3ebb47f061" name="Default Changelist" comment="index.jsp">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_One_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_One_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloSpringMVC/src/main/webapp/WEB-INF/view/show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMVC_One/SpringMVC_One.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMVC_One/src/main/java/cool/smhw/controller/MyController2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMVC_One/src/main/java/cool/smhw/controller/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMVC_One/src/main/webapp/WEB-INF/view/show2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloSpringMVC/src/main/java/cool/smhw/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HelloSpringMVC/src/main/java/cool/smhw/controller/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloSpringMVC/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloSpringMVC/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloSpringMVC/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloSpringMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloSpringMVC/src/main/webapp/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/HelloSpringMVC/src/main/webapp/WEB-INF/view/other.jsp" afterDir="false" />
+    <list default="true" id="e358ba51-db76-4156-b4d2-5b3ebb47f061" name="Default Changelist" comment="关于请求参数：&#10;HttpServletRequest&#10;HttpServletResponse&#10;HttpSession&#10;用户提供的参数（逐个读取(@RequestParam,Required)，对象读取）">
+      <change afterPath="$PROJECT_DIR$/SpringMVC_One/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC_One/src/main/java/cool/smhw/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC_One/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC_One/src/main/webapp/WEB-INF/view/other.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC_One/src/main/webapp/WEB-INF/view/show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC_One/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC_One/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC_One/说明书" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +303,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606740179824</updated>
       <workItem from="1606740187991" duration="3555000" />
-      <workItem from="1607062727999" duration="28796000" />
+      <workItem from="1607062727999" duration="29115000" />
     </task>
     <task id="LOCAL-00001" summary="index.jsp">
       <created>1607076885757</created>
@@ -320,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607076885757</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="关于请求参数：&#10;HttpServletRequest&#10;HttpServletResponse&#10;HttpSession&#10;用户提供的参数（逐个读取(@RequestParam,Required)，对象读取）">
+      <created>1607217131242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607217131242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +339,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="index.jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.jsp" />
+    <MESSAGE value="关于请求参数：&#10;HttpServletRequest&#10;HttpServletResponse&#10;HttpSession&#10;用户提供的参数（逐个读取(@RequestParam,Required)，对象读取）" />
+    <option name="LAST_COMMIT_MESSAGE" value="关于请求参数：&#10;HttpServletRequest&#10;HttpServletResponse&#10;HttpSession&#10;用户提供的参数（逐个读取(@RequestParam,Required)，对象读取）" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1607075451897">
