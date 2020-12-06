@@ -1,0 +1,35 @@
+返回值类型：
+    1.ModelAndView
+    2.String
+        返回视图
+    3.void
+        什么都不返回，通过使用HttpServletResponse输出数据，响应Ajax。
+        Ajax请求服务器端返回的是数据，和视图无关。
+    4.Object
+        不返回视图，而是直接返回数据
+
+
+        SpringMVC中使用AJAX：
+            1.加入依赖json-core、json-databind
+            2.在springmvc配置文件中加入<mvc:annotation-driven>注解驱动  对应的功能
+                            //把对象转为Json格式的数据
+                            ObjectMapper om = new ObjectMapper();
+                            json = om.writeValueAsString(student);
+              <mvc:annotation-driven>加入到springmvc配置文件后自动创建HttpMessageConverter接口的七个实现类对象，
+               数据转换类MappingJackson2HttpMessageConverter、StringHttpMessageConverter
+
+            3.在处理器上面加入@ResponseBody注解   对应的驱动
+                            response.setContentType("application/json;charset=utf-8");
+                            PrintWriter writer = response.getWriter();
+                            writer.println(json);
+
+        原理：
+            1.springmvc处理器方法返回Object，可以转为json输出到浏览器，响应AJAX内部的原理
+              HttpMessageConvert接口：java对象转为json、xml、text等格式
+                      有很多实现类（声明的方法有相应的转换方法）
+
+
+            2.boolean canWrite(Class<?> var1, @Nullable MediaType var2);判断(Object)能不能转(JSON)
+
+            3.void write(T var1, @Nullable MediaType var2, HttpOutputMessage var3) throws IOException, HttpMessageNotWritableException;
+              调用ObjectMapper进行数据格式转换

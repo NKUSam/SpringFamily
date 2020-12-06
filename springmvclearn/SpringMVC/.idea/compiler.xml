@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringMVC_URL" />
+        <module name="SpringMVC_Return" />
         <module name="HelloSpringMVC" />
         <module name="SpringMVC_One" />
       </profile>
@@ -13,6 +15,8 @@
     <bytecodeTargetLevel>
       <module name="HelloSpringMVC" target="1.8" />
       <module name="SpringMVC_One" target="1.8" />
+      <module name="SpringMVC_Return" target="1.8" />
+      <module name="SpringMVC_URL" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
