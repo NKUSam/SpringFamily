@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HelloSpringMVC" />
+        <module name="SpringMVC_One" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HelloSpringMVC" target="1.8" />
+      <module name="SpringMVC_One" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

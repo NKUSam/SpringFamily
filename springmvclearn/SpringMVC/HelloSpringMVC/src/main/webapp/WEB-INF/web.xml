@@ -5,6 +5,7 @@
          version="4.0">
 
     <servlet>
+
         <servlet-name>myweb</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 
@@ -19,6 +20,7 @@
 
     
     <servlet-mapping>
+
         <servlet-name>myweb</servlet-name>
 
         <!-- 两种方式
@@ -27,6 +29,7 @@
         -->
 
         <url-pattern>/one</url-pattern>
+
     </servlet-mapping>
 
 </web-app>
