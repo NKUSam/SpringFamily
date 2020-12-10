@@ -3,8 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloSpringMVC/HelloSpringMVC.iml" filepath="$PROJECT_DIR$/HelloSpringMVC/HelloSpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_Exeption/SpringMVC_Exeption.iml" filepath="$PROJECT_DIR$/SpringMVC_Exeption/SpringMVC_Exeption.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_Forward_Redirect/SpringMVC_Forward_Redirect.iml" filepath="$PROJECT_DIR$/SpringMVC_Forward_Redirect/SpringMVC_Forward_Redirect.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC_One/SpringMVC_One.iml" filepath="$PROJECT_DIR$/SpringMVC_One/SpringMVC_One.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC_Return/SpringMVC_Return.iml" filepath="$PROJECT_DIR$/SpringMVC_Return/SpringMVC_Return.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_Shot1/SpringMVC_Shot1.iml" filepath="$PROJECT_DIR$/SpringMVC_Shot1/SpringMVC_Shot1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_Shot2/SpringMVC_Shot2.iml" filepath="$PROJECT_DIR$/SpringMVC_Shot2/SpringMVC_Shot2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_Temple/SpringMVC_Temple.iml" filepath="$PROJECT_DIR$/SpringMVC_Temple/SpringMVC_Temple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_Together/SpringMVC_Together.iml" filepath="$PROJECT_DIR$/SpringMVC_Together/SpringMVC_Together.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC_URL/SpringMVC_URL.iml" filepath="$PROJECT_DIR$/SpringMVC_URL/SpringMVC_URL.iml" />
     </modules>
   </component>

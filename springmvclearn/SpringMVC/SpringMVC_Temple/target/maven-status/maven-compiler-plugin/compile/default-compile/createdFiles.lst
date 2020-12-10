@@ -1,0 +1,5 @@
+com\bjpowernode\domain\Student.class
+com\bjpowernode\service\StudentService.class
+com\bjpowernode\service\impl\StudentServiceImpl.class
+com\bjpowernode\controller\StudentController.class
+com\bjpowernode\dao\StudentDao.class

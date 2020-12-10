@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/context"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvn="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+
+    <!-- SpringMVC的配置文件 -->
+    <!-- 配置Controller和其他静态资源 -->
+    <context:component-scan base-package="cool.smhw.controller"/>
+
+
+    <!-- 视图解析器 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INFO/view/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+
+    <!-- 注解驱动 -->
+    <!-- Ajax使用到注解驱动 -->
+    <!-- 解决静态资源的访问问题 -->
+    <mvn:annotation-driven/>
+
+
+    <!-- 静态资源处理 -->
+<!--    <mvn:default-servlet-handler/>-->
+
+</beans>

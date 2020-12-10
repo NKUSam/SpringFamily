@@ -2,9 +2,16 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/HelloSpringMVC" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Exeption" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Forward_Redirect" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC_One" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Return" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Shot1" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Shot2" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Temple" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Together" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC_URL" />
+    <file type="web" url="file://$PROJECT_DIR$/../SSM整合开发1" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,6 +20,12 @@
         <option value="$PROJECT_DIR$/SpringMVC_One/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC_Return/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC_URL/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_Together/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_Shot1/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_Shot2/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_Temple/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_Forward_Redirect/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_Exeption/pom.xml" />
       </list>
     </option>
   </component>
