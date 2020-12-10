@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/HelloSpringMVC" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Exeption" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Forward_Redirect" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Interceptor" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC_One" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Return" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Shot1" />
@@ -26,6 +27,7 @@
         <option value="$PROJECT_DIR$/SpringMVC_Temple/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC_Forward_Redirect/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC_Exeption/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_Interceptor/pom.xml" />
       </list>
     </option>
   </component>

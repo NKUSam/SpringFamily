@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/HelloSpringMVC/HelloSpringMVC.iml" filepath="$PROJECT_DIR$/HelloSpringMVC/HelloSpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC_Exeption/SpringMVC_Exeption.iml" filepath="$PROJECT_DIR$/SpringMVC_Exeption/SpringMVC_Exeption.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC_Forward_Redirect/SpringMVC_Forward_Redirect.iml" filepath="$PROJECT_DIR$/SpringMVC_Forward_Redirect/SpringMVC_Forward_Redirect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_Interceptor/SpringMVC_Interceptor.iml" filepath="$PROJECT_DIR$/SpringMVC_Interceptor/SpringMVC_Interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC_One/SpringMVC_One.iml" filepath="$PROJECT_DIR$/SpringMVC_One/SpringMVC_One.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC_Return/SpringMVC_Return.iml" filepath="$PROJECT_DIR$/SpringMVC_Return/SpringMVC_Return.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC_Shot1/SpringMVC_Shot1.iml" filepath="$PROJECT_DIR$/SpringMVC_Shot1/SpringMVC_Shot1.iml" />

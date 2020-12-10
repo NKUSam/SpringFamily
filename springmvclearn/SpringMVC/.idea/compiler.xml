@@ -13,6 +13,7 @@
         <module name="HelloSpringMVC" />
         <module name="SpringMVC_Shot2" />
         <module name="SpringMVC_Shot1" />
+        <module name="SpringMVC_Interceptor" />
         <module name="SpringMVC_URL" />
         <module name="SpringMVC_Together" />
         <module name="SpringMVC_Temple" />
@@ -22,6 +23,7 @@
       <module name="HelloSpringMVC" target="1.8" />
       <module name="SpringMVC_Exeption" target="1.8" />
       <module name="SpringMVC_Forward_Redirect" target="1.8" />
+      <module name="SpringMVC_Interceptor" target="1.8" />
       <module name="SpringMVC_One" target="1.8" />
       <module name="SpringMVC_Return" target="1.8" />
       <module name="SpringMVC_Shot1" target="1.8" />
