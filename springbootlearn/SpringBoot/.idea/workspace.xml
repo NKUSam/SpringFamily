@@ -20,17 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1920a939-ebe1-4c22-afcc-16773a93c2ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06-get-properties/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-get-properties/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-get-properties/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-get-properties/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-get-properties/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-get-properties/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-get-properties/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-get-properties/src/main/java/cool/smhw/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-get-properties/src/main/java/cool/smhw/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-get-properties/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-get-properties/src/test/java/cool/smhw/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-get-properties-map/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-get-properties-map/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-get-properties-map/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-get-properties-map/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-get-properties-map/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-get-properties-map/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-get-properties-map/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-get-properties-map/src/main/java/cool/smhw/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-get-properties-map/src/main/java/cool/smhw/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-get-properties-map/src/main/java/cool/smhw/mapper/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-get-properties-map/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-get-properties-map/src/test/java/cool/smhw/ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +87,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -137,7 +138,7 @@
       </method>
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="06-get-properties" />
+      <module name="07-get-properties-map" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cool.smhw.*" />
@@ -165,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607593544216</updated>
-      <workItem from="1607593576399" duration="10133000" />
+      <workItem from="1607593576399" duration="13012000" />
     </task>
     <task id="LOCAL-00001" summary="springboot hello world!">
       <created>1607607082756</created>
@@ -188,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607661428146</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="获取application.properties文件中的自定义属性&#10;使用@Value(&quot;${...}&quot;)">
+      <created>1607662031506</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607662031506</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,69 +217,74 @@
     <MESSAGE value="springboot hello world!" />
     <MESSAGE value="整体框架结构学习完毕。" />
     <MESSAGE value="配置文件测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置文件测试" />
+    <MESSAGE value="获取application.properties文件中的自定义属性&#10;使用@Value(&quot;${...}&quot;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取application.properties文件中的自定义属性&#10;使用@Value(&quot;${...}&quot;)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1607661568123">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1607661568123" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607661536418">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607669539762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607661536418" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607669539762" />
     <state x="401" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607660521010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="401" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1607660521010" />
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1607669368395">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607669368395" />
     <state x="442" y="108" key="FileChooserDialogImpl" timestamp="1607607146314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607607146314" />
-    <state width="1323" height="274" key="GridCell.Tab.0.bottom" timestamp="1607661765051">
+    <state width="1323" height="440" key="GridCell.Tab.0.bottom" timestamp="1607669582618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607661765051" />
-    <state width="1323" height="274" key="GridCell.Tab.0.center" timestamp="1607661765051">
+    <state width="1323" height="440" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607669582618" />
+    <state width="1323" height="440" key="GridCell.Tab.0.center" timestamp="1607669582618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607661765051" />
-    <state width="1323" height="274" key="GridCell.Tab.0.left" timestamp="1607661765051">
+    <state width="1323" height="440" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607669582618" />
+    <state width="1323" height="440" key="GridCell.Tab.0.left" timestamp="1607669582618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607661765051" />
-    <state width="1323" height="274" key="GridCell.Tab.0.right" timestamp="1607661765051">
+    <state width="1323" height="440" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607669582618" />
+    <state width="1323" height="440" key="GridCell.Tab.0.right" timestamp="1607669582618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607661765051" />
-    <state width="1323" height="274" key="GridCell.Tab.1.bottom" timestamp="1607661765052">
+    <state width="1323" height="440" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607669582618" />
+    <state width="1323" height="440" key="GridCell.Tab.1.bottom" timestamp="1607669582619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607661765052" />
-    <state width="1323" height="274" key="GridCell.Tab.1.center" timestamp="1607661765052">
+    <state width="1323" height="440" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607669582619" />
+    <state width="1323" height="440" key="GridCell.Tab.1.center" timestamp="1607669582619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607661765052" />
-    <state width="1323" height="274" key="GridCell.Tab.1.left" timestamp="1607661765052">
+    <state width="1323" height="440" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607669582619" />
+    <state width="1323" height="440" key="GridCell.Tab.1.left" timestamp="1607669582619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607661765052" />
-    <state width="1323" height="274" key="GridCell.Tab.1.right" timestamp="1607661765052">
+    <state width="1323" height="440" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607669582619" />
+    <state width="1323" height="440" key="GridCell.Tab.1.right" timestamp="1607669582619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607661765052" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1607661508544">
+    <state width="1323" height="440" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607669582619" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1607669746912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607661508544" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607656041566">
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607669746912" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607662040247">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607656041566" />
-    <state x="64" y="15" key="new project wizard" timestamp="1607661495995">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607662040247" />
+    <state x="199" y="3" key="new project wizard" timestamp="1607667771575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="64" y="15" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1607661495995" />
+    <state x="199" y="3" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1607667771575" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1607655955076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
