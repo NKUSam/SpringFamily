@@ -1,0 +1,7 @@
+#application.properties，application.yml，application.yaml的作用都一样
+#但是.yml和.yaml更加结构化，而且他们俩完全一样，只有后缀名有小不同
+
+server:
+  port: 8080
+  servlet:
+    context-path: /springboot
