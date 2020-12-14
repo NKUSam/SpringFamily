@@ -20,17 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1920a939-ebe1-4c22-afcc-16773a93c2ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12-restfu-style/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-restfu-style/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-restfu-style/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-restfu-style/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-restfu-style/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-restfu-style/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-restfu-style/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-restfu-style/src/main/java/cool/smhw/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-restfu-style/src/main/java/cool/smhw/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-restfu-style/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-restfu-style/src/test/java/cool/smhw/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-interceptor-test/src/main/java/cool/smhw/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-interceptor-test/src/main/java/cool/smhw/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-interceptor-test/src/main/java/cool/smhw/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-interceptor-test/src/main/java/cool/smhw/interceptor/UserInterCeptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +95,20 @@
       <recent name="E:\框架学习\Framework\springbootlearn\SpringBoot\11-mybatis-xml_location" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="13-interceptor-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cool.smhw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cool.smhw.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="12-restfu-style" />
       <extension name="coverage">
@@ -118,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Spring Boot.Application" />
       </list>
@@ -134,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607593544216</updated>
       <workItem from="1607593576399" duration="36957000" />
-      <workItem from="1607921107682" duration="8880000" />
+      <workItem from="1607921107682" duration="11902000" />
     </task>
     <task id="LOCAL-00001" summary="springboot hello world!">
       <created>1607607082756</created>
@@ -206,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607930670257</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="RESTful编程风格">
+      <created>1607939136986</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607939136986</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +249,8 @@
     <MESSAGE value="初次体验mybatis的反向工程2" />
     <MESSAGE value="@Mapper,@MapperScan()的使用,以及xml文件的存放位置配置" />
     <MESSAGE value="使用注解：@Transaction,@EnableTransactionManagement" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用注解：@Transaction,@EnableTransactionManagement" />
+    <MESSAGE value="RESTful编程风格" />
+    <option name="LAST_COMMIT_MESSAGE" value="RESTful编程风格" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="46" key="#Application_(1)" timestamp="1607911722267">
@@ -254,10 +269,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="401" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1607660521010" />
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1607923985446">
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1607939455934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607923985446" />
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607939455934" />
     <state x="472" y="270" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1607670936035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -266,38 +281,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607923431201" />
-    <state width="1323" height="278" key="GridCell.Tab.0.bottom" timestamp="1607937462989">
+    <state width="1323" height="90" key="GridCell.Tab.0.bottom" timestamp="1607944206625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607937462989" />
-    <state width="1323" height="278" key="GridCell.Tab.0.center" timestamp="1607937462987">
+    <state width="1323" height="90" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607944206625" />
+    <state width="1323" height="90" key="GridCell.Tab.0.center" timestamp="1607944206624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607937462987" />
-    <state width="1323" height="278" key="GridCell.Tab.0.left" timestamp="1607937462985">
+    <state width="1323" height="90" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607944206624" />
+    <state width="1323" height="90" key="GridCell.Tab.0.left" timestamp="1607944206624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607937462984" />
-    <state width="1323" height="278" key="GridCell.Tab.0.right" timestamp="1607937462988">
+    <state width="1323" height="90" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607944206624" />
+    <state width="1323" height="90" key="GridCell.Tab.0.right" timestamp="1607944206624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607937462988" />
-    <state width="1323" height="278" key="GridCell.Tab.1.bottom" timestamp="1607937462994">
+    <state width="1323" height="90" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607944206624" />
+    <state width="1323" height="90" key="GridCell.Tab.1.bottom" timestamp="1607944206626">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607937462994" />
-    <state width="1323" height="278" key="GridCell.Tab.1.center" timestamp="1607937462992">
+    <state width="1323" height="90" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607944206626" />
+    <state width="1323" height="90" key="GridCell.Tab.1.center" timestamp="1607944206625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607937462992" />
-    <state width="1323" height="278" key="GridCell.Tab.1.left" timestamp="1607937462991">
+    <state width="1323" height="90" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607944206625" />
+    <state width="1323" height="90" key="GridCell.Tab.1.left" timestamp="1607944206625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607937462991" />
-    <state width="1323" height="278" key="GridCell.Tab.1.right" timestamp="1607937462992">
+    <state width="1323" height="90" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607944206625" />
+    <state width="1323" height="90" key="GridCell.Tab.1.right" timestamp="1607944206626">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607937462992" />
+    <state width="1323" height="90" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607944206626" />
     <state x="323" y="67" key="NewModule_or_Project.wizard" timestamp="1607867631262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -306,10 +321,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="16" width="1040" height="712" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607939076395" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607930681957">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607939141198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607930681957" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607939141198" />
     <state x="115" y="3" key="new project wizard" timestamp="1607939072714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
