@@ -20,18 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1920a939-ebe1-4c22-afcc-16773a93c2ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09-hello-mybatis/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-hello-mybatis/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-hello-mybatis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-hello-mybatis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-hello-mybatis/GeneratorMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-hello-mybatis/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-hello-mybatis/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-hello-mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-hello-mybatis/src/main/java/cool/smhw/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-hello-mybatis/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-hello-mybatis/src/test/java/cool/smhw/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/GeneratorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/dao/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/dao/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/GeneratorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/java/cool/smhw/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/java/cool/smhw/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/java/cool/smhw/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/java/cool/smhw/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/test/java/cool/smhw/ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-hello-mybatis/src/main/java/cool/smhw/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09-hello-mybatis/src/main/java/cool/smhw/dao/StudentMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +62,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,63 +106,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/014-springboot-mybatis-3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/11-mybatis-xml_location" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\框架学习\Framework\springbootlearn\SpringBoot\11-mybatis-xml_location\src\main\resources\mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\框架学习\Framework\springbootlearn\SpringBoot\11-mybatis-xml_location" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="01-hello" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="01-hello" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="09-hello-mybatis" />
+      <module name="11-mybatis-xml_location" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cool.smhw.*" />
@@ -170,7 +153,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607593544216</updated>
-      <workItem from="1607593576399" duration="33161000" />
+      <workItem from="1607593576399" duration="36957000" />
+      <workItem from="1607921107682" duration="3013000" />
     </task>
     <task id="LOCAL-00001" summary="springboot hello world!">
       <created>1607607082756</created>
@@ -214,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607674500013</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="初次体验mybatis的反向工程">
+      <created>1607913989335</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607913989335</updated>
+    </task>
+    <task id="LOCAL-00008" summary="初次体验mybatis的反向工程2">
+      <created>1607914022803</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607914022803</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +228,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springboot hello world!" />
@@ -238,7 +237,9 @@
     <MESSAGE value="获取application.properties文件中的自定义属性&#10;使用@Value(&quot;${...}&quot;)" />
     <MESSAGE value="@Component、@ConfigurationProperties(prefex=&quot;&quot;)完成自定义配置映射。" />
     <MESSAGE value="jsp的使用ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="jsp的使用ok" />
+    <MESSAGE value="初次体验mybatis的反向工程" />
+    <MESSAGE value="初次体验mybatis的反向工程2" />
+    <option name="LAST_COMMIT_MESSAGE" value="初次体验mybatis的反向工程2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="46" key="#Application_(1)" timestamp="1607911722267">
@@ -249,77 +250,81 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1607661568123" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607911728102">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607924136210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607911728102" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607924136210" />
     <state x="401" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607660521010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="401" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1607660521010" />
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1607669368395">
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1607923985446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607669368395" />
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607923985446" />
     <state x="472" y="270" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1607670936035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="472" y="270" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1366.728@0.0.1366.728" timestamp="1607670936035" />
-    <state x="442" y="108" key="FileChooserDialogImpl" timestamp="1607867629744">
+    <state x="442" y="108" key="FileChooserDialogImpl" timestamp="1607923431201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="442" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607867629744" />
-    <state width="1323" height="280" key="GridCell.Tab.0.bottom" timestamp="1607911470295">
+    <state x="442" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607923431201" />
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1607923765215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607911470295" />
-    <state width="1323" height="280" key="GridCell.Tab.0.center" timestamp="1607911470294">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607923765215" />
+    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1607923765215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607911470294" />
-    <state width="1323" height="280" key="GridCell.Tab.0.left" timestamp="1607911470294">
+    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607923765215" />
+    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1607923765215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607911470294" />
-    <state width="1323" height="280" key="GridCell.Tab.0.right" timestamp="1607911470294">
+    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607923765215" />
+    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1607923765215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607911470294" />
-    <state width="1323" height="349" key="GridCell.Tab.1.bottom" timestamp="1607869713485">
+    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607923765215" />
+    <state width="1323" height="76" key="GridCell.Tab.1.bottom" timestamp="1607923754777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="349" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607869713485" />
-    <state width="1323" height="349" key="GridCell.Tab.1.center" timestamp="1607869713485">
+    <state width="1323" height="76" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607923754777" />
+    <state width="1323" height="76" key="GridCell.Tab.1.center" timestamp="1607923754777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="349" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607869713485" />
-    <state width="1323" height="349" key="GridCell.Tab.1.left" timestamp="1607869713485">
+    <state width="1323" height="76" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607923754777" />
+    <state width="1323" height="76" key="GridCell.Tab.1.left" timestamp="1607923754776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="349" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607869713485" />
-    <state width="1323" height="349" key="GridCell.Tab.1.right" timestamp="1607869713485">
+    <state width="1323" height="76" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607923754776" />
+    <state width="1323" height="76" key="GridCell.Tab.1.right" timestamp="1607923754777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="349" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607869713485" />
+    <state width="1323" height="76" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607923754777" />
     <state x="323" y="67" key="NewModule_or_Project.wizard" timestamp="1607867631262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="323" y="67" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1607867631262" />
-    <state x="163" y="16" width="1040" height="712" key="SettingsEditor" timestamp="1607910025409">
+    <state x="163" y="16" width="1040" height="712" key="SettingsEditor" timestamp="1607923512732">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="16" width="1040" height="712" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607910025409" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607674508391">
+    <state x="163" y="16" width="1040" height="712" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607923512732" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607914041915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607674508391" />
-    <state x="115" y="3" key="new project wizard" timestamp="1607674992577">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607914041915" />
+    <state x="115" y="3" key="new project wizard" timestamp="1607923507568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="115" y="3" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1607674992577" />
+    <state x="115" y="3" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1607923507568" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1607679602058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1607679602058" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607923962926">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607923962926" />
   </component>
 </project>
