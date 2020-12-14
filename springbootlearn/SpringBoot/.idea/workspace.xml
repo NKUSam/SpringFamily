@@ -20,38 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1920a939-ebe1-4c22-afcc-16773a93c2ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/GeneratorMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/dao/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/dao/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/java/cool/smhw/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-select_by_id_mybatis/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/GeneratorMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/java/cool/smhw/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/java/cool/smhw/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/java/cool/smhw/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/java/cool/smhw/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/test/java/cool/smhw/ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-hello-mybatis/src/main/java/cool/smhw/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09-hello-mybatis/src/main/java/cool/smhw/dao/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/java/cool/smhw/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/java/cool/smhw/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/java/cool/smhw/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-mybatis-xml_location/src/main/java/cool/smhw/service/impl/StudentServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607593544216</updated>
       <workItem from="1607593576399" duration="36957000" />
-      <workItem from="1607921107682" duration="3013000" />
+      <workItem from="1607921107682" duration="3619000" />
     </task>
     <task id="LOCAL-00001" summary="springboot hello world!">
       <created>1607607082756</created>
@@ -212,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607914022803</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="@Mapper,@MapperScan()的使用,以及xml文件的存放位置配置">
+      <created>1607924536563</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607924536563</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +217,8 @@
     <MESSAGE value="jsp的使用ok" />
     <MESSAGE value="初次体验mybatis的反向工程" />
     <MESSAGE value="初次体验mybatis的反向工程2" />
-    <option name="LAST_COMMIT_MESSAGE" value="初次体验mybatis的反向工程2" />
+    <MESSAGE value="@Mapper,@MapperScan()的使用,以及xml文件的存放位置配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Mapper,@MapperScan()的使用,以及xml文件的存放位置配置" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="46" key="#Application_(1)" timestamp="1607911722267">
@@ -270,50 +249,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607923431201" />
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1607923765215">
+    <state width="1323" height="417" key="GridCell.Tab.0.bottom" timestamp="1607924412867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607923765215" />
-    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1607923765215">
+    <state width="1323" height="417" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607924412867" />
+    <state width="1323" height="417" key="GridCell.Tab.0.center" timestamp="1607924412866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607923765215" />
-    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1607923765215">
+    <state width="1323" height="417" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607924412866" />
+    <state width="1323" height="417" key="GridCell.Tab.0.left" timestamp="1607924412866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607923765215" />
-    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1607923765215">
+    <state width="1323" height="417" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607924412866" />
+    <state width="1323" height="417" key="GridCell.Tab.0.right" timestamp="1607924412866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607923765215" />
-    <state width="1323" height="76" key="GridCell.Tab.1.bottom" timestamp="1607923754777">
+    <state width="1323" height="417" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607924412866" />
+    <state width="1323" height="417" key="GridCell.Tab.1.bottom" timestamp="1607924412867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607923754777" />
-    <state width="1323" height="76" key="GridCell.Tab.1.center" timestamp="1607923754777">
+    <state width="1323" height="417" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607924412867" />
+    <state width="1323" height="417" key="GridCell.Tab.1.center" timestamp="1607924412867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607923754777" />
-    <state width="1323" height="76" key="GridCell.Tab.1.left" timestamp="1607923754776">
+    <state width="1323" height="417" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607924412867" />
+    <state width="1323" height="417" key="GridCell.Tab.1.left" timestamp="1607924412867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607923754776" />
-    <state width="1323" height="76" key="GridCell.Tab.1.right" timestamp="1607923754777">
+    <state width="1323" height="417" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607924412867" />
+    <state width="1323" height="417" key="GridCell.Tab.1.right" timestamp="1607924412867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607923754777" />
+    <state width="1323" height="417" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607924412867" />
     <state x="323" y="67" key="NewModule_or_Project.wizard" timestamp="1607867631262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="323" y="67" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1607867631262" />
-    <state x="163" y="16" width="1040" height="712" key="SettingsEditor" timestamp="1607923512732">
+    <state x="163" y="16" width="1040" height="712" key="SettingsEditor" timestamp="1607924469195">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="16" width="1040" height="712" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607923512732" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607914041915">
+    <state x="163" y="16" width="1040" height="712" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607924469195" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607924564160">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607914041915" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607924564160" />
     <state x="115" y="3" key="new project wizard" timestamp="1607923507568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
