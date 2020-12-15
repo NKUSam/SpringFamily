@@ -20,20 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1920a939-ebe1-4c22-afcc-16773a93c2ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/14-packaging-war/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-packaging-war/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-packaging-war/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-packaging-war/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-packaging-war/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-packaging-war/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-packaging-war/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-packaging-war/src/main/java/cool/smhw/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-packaging-war/src/main/java/cool/smhw/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-packaging-war/src/main/java/cool/smhw/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-packaging-war/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-packaging-war/src/main/webapp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-packaging-jar/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-packaging-jar/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-packaging-jar/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-packaging-jar/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-packaging-jar/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-packaging-jar/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-packaging-jar/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-packaging-jar/src/main/java/cool/smhw/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-packaging-jar/src/main/java/cool/smhw/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-packaging-jar/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-thymeleaf-hello/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-thymeleaf-hello/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-thymeleaf-hello/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-thymeleaf-hello/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-thymeleaf-hello/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-thymeleaf-hello/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-thymeleaf-hello/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-thymeleaf-hello/src/main/java/cool/smhw/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-thymeleaf-hello/src/main/java/cool/smhw/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-thymeleaf-hello/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-thymeleaf-hello/src/main/resources/templates/test01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-thymeleaf-hello/src/test/java/cool/smhw/ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-use_jsp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/08-use_jsp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-packaging-war/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/14-packaging-war/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +55,9 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -79,6 +90,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -107,7 +119,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="14-packaging-war" />
+      <module name="16-thymeleaf-hello" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cool.smhw.*" />
@@ -115,6 +127,9 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cool.smhw.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607593544216</updated>
       <workItem from="1607593576399" duration="36957000" />
-      <workItem from="1607921107682" duration="18553000" />
+      <workItem from="1607921107682" duration="24445000" />
     </task>
     <task id="LOCAL-00001" summary="springboot hello world!">
       <created>1607607082756</created>
@@ -223,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607945851763</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="打包成war文件并部署到Tomcat服务器中">
+      <created>1607956903714</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607956903714</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +276,8 @@
     <MESSAGE value="使用注解：@Transaction,@EnableTransactionManagement" />
     <MESSAGE value="RESTful编程风格" />
     <MESSAGE value="拦截器" />
-    <option name="LAST_COMMIT_MESSAGE" value="拦截器" />
+    <MESSAGE value="打包成war文件并部署到Tomcat服务器中" />
+    <option name="LAST_COMMIT_MESSAGE" value="打包成war文件并部署到Tomcat服务器中" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="46" key="#Application_(1)" timestamp="1607911722267">
@@ -265,10 +288,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1607661568123" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607955465439">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607998731361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607955465439" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607998731361" />
     <state x="401" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607660521010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -281,58 +304,66 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="472" y="270" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1366.728@0.0.1366.728" timestamp="1607953788999" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607997311686">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607997311686" />
     <state x="442" y="108" key="FileChooserDialogImpl" timestamp="1607953787357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607953787357" />
-    <state width="1323" height="290" key="GridCell.Tab.0.bottom" timestamp="1607956726575">
+    <state width="1323" height="151" key="GridCell.Tab.0.bottom" timestamp="1607998914289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="290" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607956726575" />
-    <state width="1323" height="290" key="GridCell.Tab.0.center" timestamp="1607956726575">
+    <state width="1323" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607998914289" />
+    <state width="1323" height="151" key="GridCell.Tab.0.center" timestamp="1607998914289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="290" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607956726575" />
-    <state width="1323" height="290" key="GridCell.Tab.0.left" timestamp="1607956726575">
+    <state width="1323" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607998914289" />
+    <state width="1323" height="151" key="GridCell.Tab.0.left" timestamp="1607998914288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="290" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607956726575" />
-    <state width="1323" height="290" key="GridCell.Tab.0.right" timestamp="1607956726575">
+    <state width="1323" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607998914288" />
+    <state width="1323" height="151" key="GridCell.Tab.0.right" timestamp="1607998914289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="290" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607956726575" />
-    <state width="1323" height="49" key="GridCell.Tab.1.bottom" timestamp="1607956684277">
+    <state width="1323" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607998914289" />
+    <state width="1323" height="151" key="GridCell.Tab.1.bottom" timestamp="1607998914289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="49" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607956684277" />
-    <state width="1323" height="49" key="GridCell.Tab.1.center" timestamp="1607956684277">
+    <state width="1323" height="151" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607998914289" />
+    <state width="1323" height="151" key="GridCell.Tab.1.center" timestamp="1607998914289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="49" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607956684277" />
-    <state width="1323" height="49" key="GridCell.Tab.1.left" timestamp="1607956684277">
+    <state width="1323" height="151" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607998914289" />
+    <state width="1323" height="151" key="GridCell.Tab.1.left" timestamp="1607998914289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="49" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607956684277" />
-    <state width="1323" height="49" key="GridCell.Tab.1.right" timestamp="1607956684277">
+    <state width="1323" height="151" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607998914289" />
+    <state width="1323" height="151" key="GridCell.Tab.1.right" timestamp="1607998914289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="49" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607956684277" />
+    <state width="1323" height="151" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607998914289" />
     <state x="323" y="67" key="NewModule_or_Project.wizard" timestamp="1607867631262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="323" y="67" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1607867631262" />
-    <state x="163" y="16" width="1040" height="712" key="SettingsEditor" timestamp="1607953797434">
+    <state x="290" y="7" width="1040" height="712" key="SettingsEditor" timestamp="1607996898392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="16" width="1040" height="712" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607953797434" />
+    <state x="290" y="7" width="1040" height="712" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607996898392" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607945855638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607945855638" />
-    <state x="115" y="3" key="new project wizard" timestamp="1607948897277">
+    <state x="454" y="191" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607997080571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="115" y="3" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1607948897277" />
+    <state x="454" y="191" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1607997080571" />
+    <state x="229" y="23" key="new project wizard" timestamp="1607996887900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="229" y="23" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1607996887900" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1607679602058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
