@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>测试对象基本表达式对象</title>
+</head>
+<body>
+    <div th:text="${#session.getAttribute('msg')}"></div>
+    <div th:text="${#httpSession.getAttribute('msg')}"></div>
+    <div th:text="${session.msg}"></div>
+
+    <script type="text/javascript" th:inline="javascript">
+        var schema = [[${#request.getScheme()}]];
+        var serverName = [[${#request.getServerName()}]];
+        var serverPort = [[${#request.getServerPort()}]];
+        var contextPath = [[${#request.getContextPath()}]];
+        var printALert = schema+"://"+serverName+":"+serverPort
+        alert(printALert);
+        alert(contextPath);
+    </script>
+</body>
+</html>

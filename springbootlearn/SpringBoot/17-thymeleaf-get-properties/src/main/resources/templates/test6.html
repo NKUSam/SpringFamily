@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>测试循环</title>
+</head>
+<body>
+    <div th:each="user,userStat:${users}">
+        <span th:text="${userStat.count}"></span>
+        <span th:text="${user.name}"></span>
+        <span th:text="${user.age}"></span>
+        <span th:text="${userStat.current}"></span>
+        <span th:text="${userStat.even}"></span>
+        <span th:text="${userStat.first}"></span>
+        <span th:text="${userStat.last}"></span>
+        <span th:text="${userStat.odd}"></span>
+        <span th:text="${userStat.size}"></span>
+    </div>
+</body>
+</html>

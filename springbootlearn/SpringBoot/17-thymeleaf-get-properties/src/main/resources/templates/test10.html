@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>测试内敛表达式</title>
+</head>
+<body>
+    <p th:inline="text">
+        测试数据：[[${msg}]]
+    </p>
+
+    <script th:inline="javascript">
+        function f() {
+            alert("测试数据："+[[${msg}]])
+        }
+    </script>
+    <br/>
+    <button onclick="f()">测试内敛表达式</button>
+</body>
+</html>

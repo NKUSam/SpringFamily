@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>测试数组遍历</title>
+</head>
+<body>
+    <div th:each="user,users:${users}">
+        <span th:text="${user.name}"></span>
+        <span th:text="${user.age}"></span>
+    </div>
+</body>
+</html>

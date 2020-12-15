@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>测试获取数据</title>
+</head>
+<body>
+    <div th:object="${user}">
+        <span th:text="*{name}">123</span><br>
+        <span th:text="''+*{age}"></span>
+    </div>
+</body>
+</html>
